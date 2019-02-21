@@ -2,7 +2,7 @@ import React from 'react';
 import { Text, View, TouchableOpacity } from 'react-native';
 import { Ionicons } from "@expo/vector-icons";
 
-import styles from '../styles/NavBarStyle';
+import styles from './Styles/NavBarStyle';
 // import CustomIcon from './CustomIcon';
 
 

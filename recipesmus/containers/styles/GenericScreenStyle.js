@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { Colors, Metrics, Fonts } from '../../theme/index';
+import { Colors, Metrics, Fonts } from '../../Theme/Index';
 
 
 export default StyleSheet.create({

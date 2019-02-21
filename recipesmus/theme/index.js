@@ -1,5 +1,5 @@
-import Colors from './colors';
-import Metrics from './metrics';
-import Fonts from './fonts';
+import Colors from './Colors';
+import Metrics from './Metrics';
+import Fonts from './Fonts';
 
 export { Colors, Metrics, Fonts };

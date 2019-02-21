@@ -1,7 +1,7 @@
 import React from 'react';
 import { View } from 'react-native';
 
-import NavBar from "./NavBar";
+import NavBar from "../Components/NavBar";
 
 export default class ExploreScreen extends React.Component {
 

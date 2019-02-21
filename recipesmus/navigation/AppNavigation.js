@@ -1,7 +1,7 @@
 import { createStackNavigator, createAppContainer, createBottomTabNavigator } from "react-navigation";
 
-import GenericScreen from "../containers/components/GenericScreen";
-import ExploreScreen from "../containers/components/ExploreScreen";
+import GenericScreen from "../Containers/GenericScreen";
+import ExploreScreen from "../Containers/ExploreScreen";
 
 
 const TabNavigator = createBottomTabNavigator({

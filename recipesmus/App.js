@@ -1,7 +1,7 @@
 import React from 'react';
 import { Expo, Font } from 'expo';
 
-import AppContainer from "./navigation/AppNavigation";
+import AppContainer from "./Navigation/AppNavigation";
 
 export default class App extends React.Component {
   constructor(props) {
