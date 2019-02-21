@@ -19,8 +19,6 @@ export default class GenericScreen extends React.Component {
 
     pressFavorite = () => {
         const { favorite } = this.state;
-        console.log(this.state);
-
         this.setState({ favorite: !favorite });
     };
 

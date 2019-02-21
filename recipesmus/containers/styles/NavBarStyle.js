@@ -17,6 +17,7 @@ export default StyleSheet.create({
         fontWeight: "bold"
     },
     favico: {
+        fontSize: Metrics.navBarIconSIze
     },
     leftContainer: {
         width: Metrics.buttonSize,

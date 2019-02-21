@@ -14,7 +14,10 @@ export default class NavBar extends React.Component {
     leftButton = () => {
         const { leftButton } = this.props;
         if (leftButton) {
-            return <Ionicons name="md-arrow-back" style={styles.favico} />;
+            return <Ionicons
+                name="md-arrow-back"
+                style={styles.favico}
+            />;
         }
     };
 
@@ -25,20 +28,21 @@ export default class NavBar extends React.Component {
                 return <Ionicons
                     name="md-heart"
                     style={[styles.favico, styles.favorite]}
-                    onPress={this.pressFavorite} />
+                    onPress={this.pressFavorite}
+                />
             }
             else
                 return <Ionicons
                     name="md-heart"
                     style={styles.favico}
-                    onPress={this.pressFavorite} />
+                    onPress={this.pressFavorite}
+                />
         }
 
     };
 
     pressFavorite = () => {
         const { onPressFavorite } = this.props;
-        alert('something')
         if (typeof onPressFavorite === "function")
             onPressFavorite();
     }
